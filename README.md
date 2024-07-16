@@ -6,7 +6,7 @@ Seja bem-vindo ao meu teste que acabou se tornando um guia de primeira viagem ao
 **Avisos:** 
 
 * Este READ.ME é direcionado aos iniciantes e a utilizadores de Pytest de primeira viagem como eu fui neste mini projeto.
-* Eu sou iniciante em nestes testes e em Pytest. Se estou passando uma informação falsa, por favor me corrija!
+* Eu sou iniciante nestes testes e em Pytest. Se estou passando uma informação falsa, por favor me corrija!
 
 ## Primeiro passo
 Para a execução destes testes, faça o download da pasta 'proj_files'.
@@ -140,6 +140,6 @@ Obrigado à você por ter chego até aqui, espero ter ajudado em algo.
 
 Obrigado ao Prof. Dr. [Yuri Feitosa](https://www.linkedin.com/in/yurifeitosa/) por ter proposto a atividade de testes do software no componente Engenharia de Software II no IFPR - Campus Astorga.
 
-[Pytest-html](https://github.com/pytest-dev/pytest-html) - [Pytest-cov](https://github.com/pytest-dev/pytest-cov)
+[Pytest](https://docs.pytest.org/en/8.2.x) - [Pytest-html](https://github.com/pytest-dev/pytest-html) - [Pytest-cov](https://github.com/pytest-dev/pytest-cov)
 
 -- *Astorga, 16 de julho de 2024* --
