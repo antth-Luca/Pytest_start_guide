@@ -112,7 +112,7 @@ pip install pytest-cov==5.0.0
 Para execução **neste** projeto:
 
 ```cmd
-pytest --cov=function --cov-report=html
+pytest --cov=proj_files --cov-report=html
 ```
 
 Este comando têm <parâmetros>, como pode ser observado. São eles:
