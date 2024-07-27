@@ -91,11 +91,43 @@ FAILED test_case_65%.py::test_find5 - AssertionError: assert 0 == 1
 
 Existem diversas bibliotecas, eu testei: a "[pytest-html](https://github.com/pytest-dev/pytest-html)" e "[pytest-cov](https://github.com/pytest-dev/pytest-cov)". 
 
-A primeira é mais simples. Já a segunda tem tema escuro, uma super vantagem para mim haha, algumas opções e informações extras.
+### Pytest-html
 
-### Instalação
+#### Instalação
 
-Eu escolhi o Pytest-cov. Para utilizar, primeiramente instale-o:
+Para usar este plugin, primeiramente instale-o:
+
+```cmd
+pip install pytest-html
+```
+
+Para a versão específica:
+
+```cmd
+pip install pytest-html==4.1.1
+```
+
+#### Uso básico
+
+Rode o seguinte comando:
+
+```cmd
+pytest --html=report.html
+```
+
+Como já pôde ser observado, este comando tem <parâmetro>:
+
+```cmd
+pytest --html=<arquivo>.html
+```
+
+Ele indica o nome do arquivo HTML que o plugin deve gerar com seus resultados.
+
+### Pytest-cov
+
+#### Instalação
+
+Para utilizar, primeiramente instale-o:
 
 ```cmd
 pip install pytest-cov
@@ -107,7 +139,7 @@ Nestes testes foi usada a versão 5.0. Para instalar a versão específica, exec
 pip install pytest-cov==5.0.0
 ```
 
-### Uso básico
+#### Uso básico
 
 Para execução **neste** projeto:
 
@@ -115,7 +147,7 @@ Para execução **neste** projeto:
 pytest --cov=proj_files --cov-report=html
 ```
 
-Este comando têm <parâmetros>, como pode ser observado. São eles:
+Este comando também têm <parâmetros>. São eles:
 
 ```cmd
 pytest --cov=<modulo> --cov-report=<formato>
@@ -129,10 +161,10 @@ Aqui está uma descrição desses parâmetros e de suas opções mais comuns:
     - html: Gera um relatório HTML detalhado que pode ser visualizado no navegador;
     - xml: Gera um relatório XML, útil para integração com ferramentas de CI/CD;
     - annotate: Cria arquivos anotados, adicionando comentários às linhas do código fonte que foram executadas.
+
 ## Autor
 
 - [@antthLuca - Luca Anthony](https://www.github.com/antth-luca)
-
 
 ## Agradecimentos
 
@@ -140,6 +172,6 @@ Obrigado à você por ter chego até aqui, espero ter ajudado em algo.
 
 Obrigado ao Prof. Dr. [Yuri Feitosa](https://www.linkedin.com/in/yurifeitosa/) por ter proposto a atividade de testes do software no componente Engenharia de Software II no IFPR - Campus Astorga.
 
-[Pytest](https://docs.pytest.org/en/8.2.x) - [Pytest-html](https://github.com/pytest-dev/pytest-html) - [Pytest-cov](https://github.com/pytest-dev/pytest-cov)
+[Python 3.12](https://docs.python.org/pt-br/3.12) - [Pytest](https://docs.pytest.org/en/8.2.x) - [Pytest-html](https://github.com/pytest-dev/pytest-html) - [Pytest-cov](https://github.com/pytest-dev/pytest-cov)
 
 -- *Astorga, 16 de julho de 2024* --
