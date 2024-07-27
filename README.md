@@ -1,4 +1,3 @@
-
 # Pytest
 
 Seja bem-vindo ao meu teste que acabou se tornando um guia de primeira viagem ao uso da biblioteca Python 'Pytest'!
@@ -162,16 +161,16 @@ Aqui está uma descrição desses parâmetros e de suas opções mais comuns:
     - xml: Gera um relatório XML, útil para integração com ferramentas de CI/CD;
     - annotate: Cria arquivos anotados, adicionando comentários às linhas do código fonte que foram executadas.
 
-## Autor
-
-- [@antthLuca - Luca Anthony](https://www.github.com/antth-luca)
-
 ## Agradecimentos
 
 Obrigado à você por ter chego até aqui, espero ter ajudado em algo.
 
 Obrigado ao Prof. Dr. [Yuri Feitosa](https://www.linkedin.com/in/yurifeitosa/) por ter proposto a atividade de testes do software no componente Engenharia de Software II no IFPR - Campus Astorga.
 
-[Python 3.12](https://docs.python.org/pt-br/3.12) - [Pytest](https://docs.pytest.org/en/8.2.x) - [Pytest-html](https://github.com/pytest-dev/pytest-html) - [Pytest-cov](https://github.com/pytest-dev/pytest-cov)
+## Autor
 
--- *Astorga, 16 de julho de 2024* --
+- [@antthLuca - Luca Anthony](https://www.github.com/antth-luca)
+
+## Links relacionados
+
+[Python 3.12](https://docs.python.org/pt-br/3.12) - [Pytest](https://docs.pytest.org/en/8.2.x) - [Pytest-html](https://github.com/pytest-dev/pytest-html) - [Pytest-cov](https://github.com/pytest-dev/pytest-cov)
